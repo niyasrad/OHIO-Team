@@ -1,0 +1,28 @@
+.teamcard-card img{
+    width: 172px;
+    height: 268px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.teamcard-card-p{
+    position: absolute;
+    bottom: 20px;
+    width: 172px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+.teamcard-card-p p{
+    text-align: center;
+    margin: 0;
+}
+.teamcard-total p{
+    font-size: 26px;
+    margin: 5px;
+}
+.teamcard-total{
+    width: 172px;
+    height: 268px;
+    position: relative;
+}

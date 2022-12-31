@@ -1,0 +1,23 @@
+.team-screen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.team-screen h1{
+    font-size: 48px;
+}
+.team-screen p{
+    font-size: 26px;
+}
+.team-cards{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    max-width: 50vw;
+}
