@@ -56,6 +56,11 @@
     font-size: 26px;
     padding: 15px 50px;
 }
+.homepage-text button:hover{
+    background: black;
+    border: 1px solid red;
+    color: red;
+}
 .homepage-right{
     width: 50%;
     display: flex;

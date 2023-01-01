@@ -3,8 +3,8 @@ import garge from '../../assets/garge.jpg'
 import raddo from '../../assets/raddo.jpg'
 import kira from '../../assets/kira.jpeg'
 import drock from '../../assets/drock.jpg'
-import avgohio from '../../assets/avgohio.jpg'
 import Beast from '../../assets/Beast.jpg'
+import tate from '../../assets/tate.jpg'
 import elo from '../../assets/elo.jpg'
 interface Team{
     name: string;
@@ -18,7 +18,7 @@ export const teams: Array<Team> = [
     {name: "Mikelle", img: garge, post: "TECH LEAD"},
     {name: "Lorem Ipsum", img: kira, post: "MANAGER"},
     {name: "Rock", img: drock, post: "PARTNER"},
-    {name: "Average", img: avgohio, post: "PARTNER"},
+    {name: "Pariboss Tate", img: tate, post: "SECURITY HEAD"},
     {name: "Beast", img: Beast, post: "PARTNER"},
     {name: "Elo", img: elo, post: "PARTNER"}
 ]

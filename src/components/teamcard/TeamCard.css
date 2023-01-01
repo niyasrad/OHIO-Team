@@ -26,7 +26,9 @@
     height: 268px;
     position: relative;
 }
-
+.teamcard-total:hover{
+    transform: scale(1.1);
+}
 @media only screen and (max-width: 800px) {
     .teamcard-card img{
         width: 232px;
