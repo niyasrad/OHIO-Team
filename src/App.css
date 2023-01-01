@@ -2,6 +2,8 @@
 *{
   font-family: 'Alumni Sans', sans-serif;
   letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
 }
 html{
   scroll-behavior: smooth;

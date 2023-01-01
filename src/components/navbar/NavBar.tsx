@@ -15,7 +15,6 @@ function NavBar() {
                 </div>
                 <div className="nav-bar-right">
                     <Link to='/'>Home</Link>
-                    <Link to='/testimonials'>Testimonials</Link>
                     <Link to='/team'>Team</Link>
                     <Link to='/about'>About</Link>
                 </div>
@@ -28,7 +27,6 @@ function NavBar() {
                 (
                     <div className={active? 'nav-mobile': 'nav-mobile drop'}>
                 <Link onClick={() => setActive(!active)} to='/'>- Home</Link>
-                <Link onClick={() => setActive(!active)} to='/testimonials'>- Testimonials</Link>
                 <Link onClick={() => setActive(!active)} to='/team'>- Team</Link>
                 <Link onClick={() => setActive(!active)} to='/about'>- About</Link>
             </div>

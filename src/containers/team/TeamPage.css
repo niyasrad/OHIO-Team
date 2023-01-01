@@ -4,12 +4,18 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 50px;
 }
 .team-screen h1{
     font-size: 48px;
 }
 .team-screen p{
     font-size: 26px;
+
+}
+.pp{
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 .team-cards{
     margin-top: 10vh;
@@ -19,5 +25,19 @@
     align-items: center;
     gap: 100px;
     flex-wrap: wrap;
-    max-width: 50vw;
+    max-width: 60vw;
+}
+@media only screen and (max-width: 800px){
+    .team-screen{
+        gap: 25px;
+    }
+    .team-screen p{
+        font-size: unset;
+    }
+    .team-cards{
+        margin-top: 0;
+        margin-bottom: 10vh;
+        flex-wrap: wrap;
+        max-width: 90vw;
+    }
 }

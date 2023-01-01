@@ -12,5 +12,7 @@ export const teams: Array<Team> = [
     {name: "Mikelle", img: test, post: "TECH LEAD"},
     {name: "Lorem Ipsum", img: test, post: "MANAGER"},
     {name: "Mikelle", img: test, post: "PARTNER"},
+    {name: "6000", img: test, post: "PARTNER"},
+    {name: "Mikelle", img: test, post: "PARTNER"},
     {name: "6000", img: test, post: "PARTNER"}
 ]
