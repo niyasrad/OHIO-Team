@@ -62,6 +62,7 @@
 .homepage-right img{
     margin-left: 10vw;
     margin-right: 10vw;
+    width: 50%;
 }
 .carousel{
     max-width: 90vw;
@@ -82,19 +83,19 @@
         width: 90%;
     }
     .homepage-right img{
-        margin:0;
+        width: 80%;
     }
     .homepage-screen-2{
         flex-direction: column;
         height: unset;
-        margin-top: 85px;
+        padding-top: 85px;
         margin-bottom: 85px;
     }
     .homepage-screen-3{
         flex-direction: column;
         align-items: center;
         height: unset;
-        margin-top: 85px;
+        padding-top: 85px;
         margin-bottom: 85px;
         margin-left: 10vw;
         margin-right: 10vw;

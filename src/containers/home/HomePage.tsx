@@ -5,6 +5,8 @@ import whatdowedo from '../../assets/whatdowedo.png'
 import Carousel from 'react-grid-carousel';
 import { testimonies } from './data'
 import TestimonialCard from "../../components/testimonialcard/TestimonialCard";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 function HomePage() {
     return (
       <>
@@ -18,12 +20,12 @@ function HomePage() {
             
           </div>
           <div className='homepage-right'>
-            <img src={weareohio} />
+            <LazyLoadImage effect='blur' src={weareohio} placeholderSrc={weareohio}/>
           </div>
         </div>
         <div id="whatwedo" className='homepage-screen-2'>
           <div className='homepage-right'>
-            <img src={whatdowedo} />
+            <LazyLoadImage effect='blur' src={whatdowedo} placeholderSrc={weareohio}/>
           </div>
           <div  className='homepage-left'>
             <div className='homepage-text'>

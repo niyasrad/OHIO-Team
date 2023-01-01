@@ -1,5 +1,7 @@
 import test from '../../assets/image.png'
-
+import garge from '../../assets/garge.jpg'
+import raddo from '../../assets/raddo.jpg'
+import kira from '../../assets/kira.jpeg'
 interface Team{
     name: string;
     img: string;
@@ -7,10 +9,10 @@ interface Team{
 }
 
 export const teams: Array<Team> = [
-    {name: "Raddoman", img: test, post: "CEO"},
+    {name: "Raddoman", img: raddo, post: "CEO"},
     {name: "Mr. OHIO", img: test, post: "CTO"},
-    {name: "Mikelle", img: test, post: "TECH LEAD"},
-    {name: "Lorem Ipsum", img: test, post: "MANAGER"},
+    {name: "Mikelle", img: garge, post: "TECH LEAD"},
+    {name: "Lorem Ipsum", img: kira, post: "MANAGER"},
     {name: "Mikelle", img: test, post: "PARTNER"},
     {name: "6000", img: test, post: "PARTNER"},
     {name: "Mikelle", img: test, post: "PARTNER"},
