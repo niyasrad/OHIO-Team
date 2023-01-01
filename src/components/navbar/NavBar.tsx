@@ -11,7 +11,7 @@ function NavBar() {
         <>
             <div className="nav-bar">
                 <div className="nav-bar-left">
-                    <img src={ohio} />
+                    <Link onClick={() => setActive(!active)} to='/'><img src={ohio} /></Link>
                 </div>
                 <div className="nav-bar-right">
                     <Link to='/'>Home</Link>
