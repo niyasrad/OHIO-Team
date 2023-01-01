@@ -26,3 +26,16 @@
     height: 268px;
     position: relative;
 }
+
+@media only screen and (max-width: 800px) {
+    .teamcard-card img{
+        width: 232px;
+        height: 268px;
+    }
+    .teamcard-card-p{
+        width: 232px;
+    }
+    .teamcard-total{
+        width: 232px;
+    }
+}

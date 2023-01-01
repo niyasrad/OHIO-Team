@@ -46,6 +46,9 @@
 .homepage-text h1{
     font-size: 48px;
 }
+.homepage-text p{
+    font-size: 20px;
+}
 .homepage-text button{
     background: #FFFFFF;
     border: 1px solid #000000;
@@ -77,6 +80,9 @@
     .homepage-left{
         max-width: 100%;
         width: 90%;
+    }
+    .homepage-text p{
+        font-size: unset;
     }
     .homepage-right{
         max-width: 100%;

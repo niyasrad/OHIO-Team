@@ -20,12 +20,12 @@ function HomePage() {
             
           </div>
           <div className='homepage-right'>
-            <LazyLoadImage effect='blur' src={weareohio} placeholderSrc={weareohio}/>
+            <img src={weareohio} />
           </div>
         </div>
         <div id="whatwedo" className='homepage-screen-2'>
           <div className='homepage-right'>
-            <LazyLoadImage effect='blur' src={whatdowedo} placeholderSrc={weareohio}/>
+          <img src={whatdowedo} />
           </div>
           <div  className='homepage-left'>
             <div className='homepage-text'>
